@@ -1,6 +1,6 @@
 # FLUX BASIC APPLICATION (FBA)
 
-FBA is a basic application that i built using React.js and Flux. Its just a reference to be used when creating applicaitons using flux.
+FBA is a basic application that i built using React.js and Flux. Its just a reference to be used when creating applications using flux.
 
 Basic Concepts:
   - Stores are used to store data of a domain. In this case Persons.
