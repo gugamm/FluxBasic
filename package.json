@@ -1,0 +1,23 @@
+{
+  "name": "flux-learning",
+  "version": "0.0.1",
+  "description": "A flux learning tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/javascript/index.js -o src/output/bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "watch": "watchify src/javascript/index.js -o src/output/bundle.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "author": "gugamm",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "eventemitter2": "^0.4.14",
+    "flux": "^2.1.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "watchify": "^3.7.0"
+  }
+}
