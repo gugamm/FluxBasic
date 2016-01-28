@@ -27,6 +27,18 @@ $ cd FluxBasic
 $ npm install
 ```
 
+### Scripts
+
+Build bundle:
+```sh
+$ npm run build
+```
+
+Watch for changes and update bundle:
+```sh
+$ npm run watch
+```
+
 License
 ----
 
